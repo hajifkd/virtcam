@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "virtcam"
+version = "0.1.0"
+description = ""
+authors = ["Hajime Fukuda <haji.fkd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "2.4.1"
+pyfakewebcam = "0.1.0"
+numpy = "1.19.5"
+inotify = "0.2.10"
+tf_bodypix = "0.3.4"
+tfjs-graph-converter = "1.4.2"
+opencv-python = "4.5.1.48"
+Pillow = "8.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+autopep8 = "^1.5.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

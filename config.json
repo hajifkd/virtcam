@@ -1,0 +1,6 @@
+{
+    "input_index": 0,
+    "virt_device": "/dev/video2",
+    "threshold": 0.7,
+    "background": "samplebg.jpg"
+}
